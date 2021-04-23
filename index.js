@@ -42,5 +42,5 @@ function exerciseDog(dogName, dogBreed){
     routine[i](dogName, dogBreed);
     arrayFunction.push(routine[i](dogName, dogBreed));
   }
-  return arrOfFunction;
+  return arrayFunction;
 }
